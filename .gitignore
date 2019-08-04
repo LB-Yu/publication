@@ -1,0 +1,8 @@
+# pycharm
+.idea
+
+# python
+.ipynb_checkpoints
+__pycache__
+
+*.gz
