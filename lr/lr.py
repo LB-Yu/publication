@@ -14,6 +14,9 @@ class LogisticRegression:
     """
     Logistic regression model implement with pure python.
     Same interface with sklearn.
+
+    For easy implementation, this class does not support batch training,
+    if you need batch training, see https://github.com/LB-Yu/publication/tree/master/autodiff_py
     """
     def __init__(self, learning_rate=0.01, max_iter=200):
         self.learning_rate = learning_rate
@@ -64,5 +67,5 @@ class LogisticRegression:
         """
         Y_hat = self.predict(X).reshape(-1)
         Y_predict = np.array([1 if y >= 0.5 else 0 for y in Y_hat])
-        false_num = np.sum(Y_predict == Y.reshape(-1))
-        return false_num / len(X)
+        true_num = np.sum(Y_predict == Y.reshape(-1))
+        return true_num / len(X)
