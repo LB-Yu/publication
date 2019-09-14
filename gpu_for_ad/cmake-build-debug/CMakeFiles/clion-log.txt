@@ -1,7 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\code\LearningMap\3ds\ai_sys\CSE599W\code\assignment2-2017
-CMake Error at CMakeLists.txt:22 (INSTALL):
-  INSTALL Library TARGETS given no DESTINATION!
-
-
--- Configuring incomplete, errors occurred!
-See also "D:/code/LearningMap/3ds/ai_sys/CSE599W/code/assignment2-2017/cmake-build-debug/CMakeFiles/CMakeOutput.log".
