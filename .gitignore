@@ -7,3 +7,6 @@ __pycache__
 .pytest_cache
 
 *.gz
+
+cmake-build-debug
+build
